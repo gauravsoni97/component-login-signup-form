@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+body {
+  background-color: #30abfd;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.formbox {
+  position: relative;
+  margin: 6% auto;
+  border-radius: 10px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 20px 20px rgba(0, 0, 0, 0.226);
+          box-shadow: 0 20px 20px rgba(0, 0, 0, 0.226);
+  padding: 5px;
+  width: 380px;
+  height: 78vh;
+  overflow: hidden;
+}
+
+.formbox .buttonbox {
+  width: 210px;
+  position: relative;
+  margin: 45px auto;
+  top: 10px;
+  -webkit-box-shadow: 0 0 10px 2px rgba(110, 110, 110, 0.219);
+          box-shadow: 0 0 10px 2px rgba(110, 110, 110, 0.219);
+  border-radius: 30px;
+}
+
+.formbox .buttonbox #btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  background-color: #30abfd;
+  -webkit-transition: 0.6s all ease;
+  transition: 0.6s all ease;
+  border-radius: 30px;
+}
+
+.formbox .buttonbox .togglebtn {
+  position: relative;
+  outline: none;
+  padding: 18px 30px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+.formbox .inputbox {
+  position: absolute;
+  top: 150px;
+  width: 280px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.formbox .inputbox .input-field {
+  width: 100%;
+  padding: 10px 0;
+  margin: 14px 0;
+  border: none;
+  border-bottom: 2px solid #30abfd;
+  outline: none;
+  background: transparent;
+}
+
+.formbox .inputbox .checkbox {
+  margin: 40px 10px 26px 0;
+}
+
+.formbox .inputbox span {
+  position: absolute;
+  bottom: 68px;
+  font-size: 14px;
+  color: #777;
+}
+
+.formbox .inputbox .submitbtn {
+  padding: 15px 30px;
+  display: block;
+  margin: auto;
+  width: 85%;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #30abfd;
+}
+
+.formbox .inputbox .submitbtn:hover {
+  background-color: #0d9dfd;
+}
+
+.formbox #login {
+  left: 50px;
+}
+
+.formbox #signup {
+  left: 450px;
+}
+/*# sourceMappingURL=style.css.map */
